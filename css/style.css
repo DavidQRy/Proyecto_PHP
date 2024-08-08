@@ -1,3 +1,39 @@
-*{
-    background-color: darkcyan;
+body{
+    background-color:  rgb(126, 190, 192);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 10px;
+
+.header .header_sup {
+    height: 200px;
+    /*background-color: darkcyan;*/
+    & img{
+        height: 200px;
+    }
+}
+
+.header {
+    border-bottom:solid ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_inf{
+    background-color: ;
+    width: auto;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    & a{
+        font-family: "Jersey 25", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 1.5em;
+        text-decoration: none;
+        margin: auto;
+        padding: 10px;
+    }
 }
